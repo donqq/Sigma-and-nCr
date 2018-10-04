@@ -50,7 +50,7 @@ Public Class Algebra
 
 
                 Case "nSigma1" '//n∑1 (n firstVal ,r 1)
-                    While ((_firstVale - i) >= _secondVale) '5,4,3,2,1 (r=1 ,n=5)
+                    While ((_firstVale - i) >= 1) '5,4,3,2,1 (r=1 ,n=5)
                         temp_val += (_firstVale - i)
                         i += 1
                     End While
