@@ -14,6 +14,9 @@ The library has two functions, Factorial and Sigma.
 * Factorial function takes two parameters. Even though the second parameter is mandatory, it's not required; hence a blank string can be used. However, as the first parameter a value should be used. This value is the n of n!. 
 * Second function takes three parameters. First value, second value, and the symbol to distinguish one from others. First sigma segment is for calculating n to p, for instance 5 to 1. second sigma segment is for calculating n to 1. The last nCr is for n! / (r! (n-r)!), where n is the first value and r is the second value. 
 
+Returned value
+---------
+* a floating point value
 
 How to Compile and Use
 ---------
